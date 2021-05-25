@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>41b0c6a5-a162-4497-9f42-41f96c7d795b</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,6 +10,7 @@
     <PackageReference Include="MediatR" Version="9.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.5">
       <PrivateAssets>all</PrivateAssets>
